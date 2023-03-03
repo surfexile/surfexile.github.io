@@ -15,6 +15,6 @@ paginate_path: "blog/page:num"
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 
 
-baseurl: "/blog"
+baseurl: "/"
 url: "https://neilbrown.dev/"
 
