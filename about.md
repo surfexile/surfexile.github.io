@@ -2,6 +2,7 @@
 layout: post
 title: About
 ---
-# About page
+# About
 
-This page tells you a little bit about me.
+My name is Neil Brown and I'm a .Net Developer / Software Engineer from the UK.
+
