@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /about/
 title: About
 categories: [Tech, Technical, Personal]
 ---
