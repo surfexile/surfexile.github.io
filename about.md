@@ -12,12 +12,12 @@ Though I've been working in I.T. for nearly 40 years, I still keep myself up to 
 
 I've worked across many sectors, including a former Blue Chip company, the public Sector, a small start-up and a medium sized family business in Fintech.
 
-##Fave podcasts
+## Fave podcasts
 I'm a big fan of Tech podcasts. Here are a few of my current favourites:
  {% for podcast in site.podcasts %}
-  - Name: {{ podcast.name }}  
-  - Description: {{ podcast.description }}  
-  - URL: {{ podcast.link }} 
-<br />
+   ### Name: {{ podcast.name }}  
+   Description: {{ podcast.description }}  
+   URL: ({{ podcast.link }}) 
+	<br />
  {% endfor %}
 
