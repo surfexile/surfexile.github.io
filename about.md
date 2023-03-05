@@ -3,16 +3,6 @@ layout: post
 permalink: /about
 title: About
 categories: [Tech, Technical, Personal, Podcasts, YouTube]
-podcasts:
-  -
-    name: ".Net Rocks
-    link: "https://www.dotnetrocks.com/
-    description: "A long running weekly podcast about the .Net platform"
-  -
-    name: "Azure DevOps Podcast"
-    link: "http://azuredevopspodcast.clear-measure.com/"
-    description: "About making software quicker and more reliably"
-
 ---
 # About me
 
