@@ -30,6 +30,10 @@ podcasts:
     name: "Soft Skills Engineering"
     link: "https://softskills.audio/"
     description: "This weekly podcast is about the soft (non-technical) skills needed to be a good (No.. great) SE"
+  -
+    name: "The .NET Core Podcast"
+    link: "https://dotnetcore.show/"
+    description: "A regular podcast devoted to Microsoft's .Net technology, with host Jamie Taylor."
 
 # Youtube channels
 youtube:
@@ -41,3 +45,5 @@ youtube:
     name: "Nick Chapsas"
     link: "https://www.youtube.com/@nickchapsas"
     description: "Explains features of the .Net platform and introduces popular libraries"
+
+  
