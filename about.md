@@ -15,8 +15,9 @@ I've worked across many sectors, including a former Blue Chip company, the publi
 ## Fave podcasts
 I'm a big fan of Tech podcasts. Here are a few of my current favourites:
  {% for podcast in site.podcasts %}
-### Name: {{ podcast.name }}  
+#### Name: {{ podcast.name }}  
 Description: {{ podcast.description }}  
-URL: ({{ podcast.link }})  
+URL: 
+({{ podcast.link }})  
  {% endfor %}
 
