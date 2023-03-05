@@ -16,3 +16,28 @@ plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 baseurl: "/"
 url: "https://neilbrown.dev/"
 
+# Podcasts
+podcasts:
+  -
+    name: ".Net Rocks"
+    link: "https://www.dotnetrocks.com/"
+    description: "A long running weekly podcast about the .Net platform"
+  -
+    name: "Azure DevOps Podcast"
+    link: "http://azuredevopspodcast.clear-measure.com/"
+    description: "About making software quicker and more reliably"
+  -
+    name: "Soft Skills Engineering"
+    link: "https://softskills.audio/"
+    description: "This weekly podcast is about the soft (non-technical) skills needed to be a good (No.. great) SE"
+
+# Youtube channels
+youtube:
+  -
+    name: "Continuous Delivery"
+    link: "https://www.youtube.com/c/ContinuousDelivery"
+    description: "Explores ideas that help to produce 'Better Software Faster'"
+  -
+    name: "Nick Chapsas"
+    link: "https://www.youtube.com/@nickchapsas"
+    description: "Explains features of the .Net platform and introduces popular libraries"
