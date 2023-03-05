@@ -3,6 +3,22 @@ layout: post
 permalink: /about
 title: About
 categories: [Tech, Technical, Personal, Podcasts, YouTube]
+# Podcasts
+podcasts:
+  -
+    name: ".Net Rocks"
+    link: "https://www.dotnetrocks.com/"
+    description: "A long running weekly podcast about the .Net platform"
+  -
+    name: "Azure DevOps Podcast"
+    link: "http://azuredevopspodcast.clear-measure.com/"
+    description: "About making software quicker and more reliably"
+  -
+    name: "Soft Skills Engineering"
+    link: "https://softskills.audio/"
+    description: "This weekly podcast is about the soft (non-technical) skills needed to be a good (No.. great) SE"
+
+
 ---
 # About me
 
