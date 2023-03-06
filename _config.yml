@@ -15,7 +15,7 @@ plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 
 
 #baseurl: "/"
-url: "https://neilbrown.dev/"
+url: "https://neilbrown.dev"
 #website: "https://neilbrown.dev"
 
 
