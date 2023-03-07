@@ -15,7 +15,7 @@ plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 
 
 #baseurl: "/"
-url:  "https://www.neilbrown.dev"
+url:  "https://neilbrown.dev"
 #website: "https://www.neilbrown.dev"
 
 
@@ -49,5 +49,5 @@ youtube:
     link: "https://www.youtube.com/@nickchapsas"
     description: "Explains features of the .Net platform and introduces popular libraries"
 
-#exclude:
-#  - CNAME
+exclude:
+  - CNAME
