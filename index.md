@@ -1,5 +1,8 @@
-layout: default
-title: "title of page"
-permalink: /
+---
+layout: home
+---
+#layout: default
+#title: "title of page"
+#permalink: /
 
 
