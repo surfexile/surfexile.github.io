@@ -4,7 +4,8 @@ header_text: Welcome to my tech blog
 footer_text: Copyright &copy; 2023 | Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
 # Blog
-excerpt: truncate   # true Or "truncate" (first 250 characters), "false" to disable
+# true Or "truncate" (first 250 characters), "false" to disable
+excerpt: truncate   
 
 color_image: /assets/img/lineart.png
 
