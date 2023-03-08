@@ -8,7 +8,8 @@ categories: [Tech, Technical, Personal, Podcasts, YouTube]
 ---
 # About me
 
-My name is Neil Brown and I'm a .Net Developer / Software Engineer from the UK.
+
+I'm Neil Brown and a .Net Developer / Software Engineer from the UK.
 
 Though I've been working in I.T. for nearly 40 years, I still keep myself up to date with the latest Development technologies, frameworks and techniques. I try to infuse my enthusiasm for the industry into others and this site is just one way of doing that.
 
