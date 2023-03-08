@@ -13,9 +13,14 @@ color_image: /assets/img/lineart.png
 # PAGINATION
 post_navigation: true
 paginate: 5
-paginate_path: "_posts/page:num"
+paginate_path: "blog/page:num"
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
 
 #baseurl: "/"
 url:  "https://www.neilbrown.dev"
