@@ -1,10 +1,8 @@
 remote_theme: sylhare/Type-on-Strap
-#brennanbrown/purelog   
-#sylhare/Type-on-Strap
 header_text: Welcome to my tech blog
 footer_text: Copyright &copy; 2023 | Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
-title: "neilbrown.dev Development Tech blog"
+title: "neilbrown.dev Development blog"
 # Blog
 # true Or "truncate" (first 250 characters), "false" to disable
 excerpt: truncate   
