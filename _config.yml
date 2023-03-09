@@ -25,10 +25,9 @@ collections:
     output: true
     permalink: /:collection/:name
 
-#baseurl: "/"
+baseurl: ""
 url:  "https://www.neilbrown.dev"
 #website: "https://www.neilbrown.dev"
-
 
 # Podcasts
 podcasts:
