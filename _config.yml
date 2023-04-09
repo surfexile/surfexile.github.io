@@ -1,4 +1,4 @@
-#remote_theme: sylhare/Type-on-Strap
+remote_theme: sylhare/Type-on-Strap
 header_text: Welcome to my tech blog
 footer_text: Copyright &copy; 2023 | Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
@@ -10,9 +10,8 @@ excerpt: truncate
 color_image: /assets/img/lineart.png
 
 # PAGINATION
-post_navigation: true
 paginate: 5
-paginate_path: "blog/page:num"
+paginate_path: "/blog/page:num"
 
 # BUILD SETTINGS
 sass:
@@ -22,8 +21,7 @@ incremental: true
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea", ".github", "SECURITY.md",
           "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules/**", "gulpfile.js", "themes", "_draft",
           "vendor/*", ".git"]
-keep_files: ["assets/example", "assets/notebook", "assets/sound", "assets/js", "assets/img",]
-remote_theme: sylhare/Type-on-Strap
+keep_files: ["assets/example", "assets/notebook", "assets/sound", "assets/js", "assets/img"]
 
 
 # theme: type-on-strap # Sends warnings on GitHub pages
