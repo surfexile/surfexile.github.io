@@ -36,7 +36,7 @@ keep_files: ["assets/example", "assets/notebook", "assets/sound", "assets/js", "
 collections:
   portfolio:
     output: true
-    permalink: /:collection/:name
+    #permalink: /:collection/:name
 
 
 
