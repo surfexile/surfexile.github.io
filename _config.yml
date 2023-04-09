@@ -31,7 +31,7 @@ remote_theme: sylhare/Type-on-Strap
 collections:
   portfolio:
     output: true
-    permalink: /:collection/:name
+    #permalink: /:collection/:name
 
 baseurl: ""
 url:  "https://www.neilbrown.dev"
