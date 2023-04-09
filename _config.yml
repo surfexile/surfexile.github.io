@@ -7,11 +7,18 @@ title: "neilbrown.dev Development blog"
 # true Or "truncate" (first 250 characters), "false" to disable
 excerpt: truncate   
 
+
+
+# Post navigation
+post_navigation: true
+
+
 color_image: /assets/img/lineart.png
 
 # PAGINATION
 paginate: 5
 paginate_path: "/blog/page:num"
+
 
 # BUILD SETTINGS
 sass:
@@ -29,7 +36,9 @@ keep_files: ["assets/example", "assets/notebook", "assets/sound", "assets/js", "
 collections:
   portfolio:
     output: true
-    #permalink: /:collection/:name
+    permalink: /:collection/:name
+
+
 
 baseurl: ""
 url:  "https://www.neilbrown.dev"
@@ -67,3 +76,5 @@ youtube:
 
 #exclude:
 #  - CNAME
+
+
