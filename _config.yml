@@ -1,4 +1,4 @@
-remote_theme: sylhare/Type-on-Strap
+remote_theme: https://github.com/sylhare/Type-on-Strap
 header_text: Welcome to my tech blog
 footer_text: Copyright &copy; 2023 | Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
@@ -17,7 +17,7 @@ color_image: /assets/img/lineart.png
 
 # PAGINATION
 paginate: 5
-paginate_path: "/blog/page:num"
+paginate_path: "blog/page:num"
 
 
 # BUILD SETTINGS
@@ -36,7 +36,7 @@ keep_files: ["assets/example", "assets/notebook", "assets/sound", "assets/js", "
 collections:
   portfolio:
     output: true
-    #permalink: /:collection/:name
+    permalink: /:collection/:name
 
 
 
