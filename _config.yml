@@ -1,4 +1,5 @@
-remote_theme: https://github.com/sylhare/Type-on-Strap
+remote_theme: just-the-docs/just-the-docs
+#sylhare/Type-on-Strap
 header_text: Welcome to my tech blog
 footer_text: Copyright &copy; 2023 | Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
