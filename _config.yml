@@ -1,24 +1,61 @@
-remote_theme: just-the-docs/just-the-docs
+baseurl: ""
+url:  "https://www.neilbrown.dev"
+title: "neilbrown.dev Development blog"
+description: "A blog with things I've learned and want to share'"
+#website: "https://www.neilbrown.dev"
+
+
+# THEME-SPECIFIC CONFIGURATION
+# Meta
+avatar: assets/img/devtags.png
+color_image: /assets/img/lineart.png
+favicon: assets/favicon.ico
+
+
+#remote_theme: just-the-docs/just-the-docs
+
 #sylhare/Type-on-Strap
 header_text: Welcome to my tech blog
+#header_feature_image: assets/img/pexels/circuit.jpeg ' sort this out later :)
 footer_text: Copyright &copy; 2023 | Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
-title: "neilbrown.dev Development blog"
+
 # Blog
 # true Or "truncate" (first 250 characters), "false" to disable
 excerpt: truncate   
 
+
+# Scripts / Features
+#google_analytics: "UA-142123817-1"
+#google_analytics_ga4: "G-YPX3TXS4S4"
+#katex: true # Enable if using math markup
+#mermaid: true
+#cusdis_app_id: "fb06ba3d-43ad-4e00-be04-0828fac06b89"
+#color_theme: light  # auto, dark or light
 
 
 # Post navigation
 post_navigation: true
 
 
-color_image: /assets/img/lineart.png
-
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
+
+
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+
+
+# RSS
+#feed:
+#  disable_in_development: true
+#  excerpt_only: true
+#  posts_limit: 100
+
 
 
 # BUILD SETTINGS
@@ -29,21 +66,12 @@ incremental: true
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea", ".github", "SECURITY.md",
           "LICENSE", "README.md", "screenshot.png", "package.json", "node_modules/**", "gulpfile.js", "themes", "_draft",
           "vendor/*", ".git"]
-keep_files: ["assets/example", "assets/notebook", "assets/sound", "assets/js", "assets/img"]
-
-
+keep_files: ["assets/example", "assets/notebook", "assets/sound", "assets/js", "assets/img",]
+remote_theme: sylhare/Type-on-Strap
 # theme: type-on-strap # Sends warnings on GitHub pages
-# PORTFOLIO
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
 
 
 
-baseurl: ""
-url:  "https://www.neilbrown.dev"
-#website: "https://www.neilbrown.dev"
 
 # Podcasts
 podcasts:
@@ -58,7 +86,7 @@ podcasts:
   -
     name: "Soft Skills Engineering"
     link: "https://softskills.audio/"
-    description: "This weekly podcast is about the soft (non-technical) skills needed to be a good (No.. great) SE"
+    description: "This weekly podcast is about the soft (non-technical) skills needed to be a good (No... great!) SE"
   -
     name: "The .NET Core Podcast"
     link: "https://dotnetcore.show/"

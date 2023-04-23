@@ -2,9 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\_blogs",
+    "\\_includes",
+    "\\_layouts",
     "\\_posts",
-    "\\_posts\\2023"
+    "\\_posts\\2023",
+    "\\_sass"
   ],
-  "SelectedNode": "\\LICENSE",
+  "SelectedNode": "\\about.md",
   "PreviewInSolutionExplorer": false
 }
